@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Serenity Spa - Booking</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="nav">
+      <div class="logo">Serenity Spa</div>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="prices.html">Prices</a>
+        <a href="booking.html">Booking</a>
+        <a href="reels.html">Facial Videos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Book an Appointment</h2>
+    <div class="form-block">
+      <form action="thankyou.html">
+        <label>Your full name</label>
+        <input type="text" name="name" placeholder="e.g. Elena Salvatore " required>
+
+        <label>Phone number</label>
+        <input type="text" name="phone" placeholder="+91 9XXXXXXXXX" required>
+
+        <label>Select service</label>
+        <select name="service">
+          <option>Hydrating Facial</option>
+          <option>Glow Facial</option>
+          <option>Deep Cleanse Facial</option>
+          <option>Teen Facial</option>
+        </select>
+
+        <label>Preferred date</label>
+        <input type="date" name="date" required>
+
+        <button class="btn" type="submit">Confirm Booking</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">We will call to confirm within 24 hours.</footer>
+</body>
+</html>
